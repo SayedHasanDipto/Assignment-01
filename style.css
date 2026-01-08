@@ -70,19 +70,25 @@ a:hover {
     transition: 0.3s;
 }
 
-.last-btn{
+.last-btn {
     border: none;
     margin-bottom: 16px;
 }
 
-.last-btn a{
+.last-btn a {
     display: flex;
     align-items: center;
     justify-content: center;
     color: rgba(255, 255, 255, 0.719);
 }
 
-.last-btn a img{
+.last-btn:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+    color: rgba(255, 255, 255, 0.500);
+    border: 1px solid rgba(255, 255, 255, 0.075);
+}
+
+.last-btn a img {
     margin-left: 5px;
 }
 
