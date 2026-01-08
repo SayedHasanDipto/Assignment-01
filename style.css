@@ -7,6 +7,7 @@
 .inter-font-family {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
+    color: #001931;
 }
 
 /* Hero Section Styles */
@@ -197,8 +198,103 @@ button {
 }
 
 .solution {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 70px 45px;
+}
+
+.solution-container {
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+}
+
+.solution-container .knowledge {
+    width: 600px;
+    height: 600px;
+}
+
+.soluction-content .the-solution {
+    font-size: 16px;
+    color: #30B868;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.soluction-content h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+
+.soluction-content p {
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.soluction-content ul {
+    list-style: none;
+}
+
+.soluction-content ul li {
+    font-size: 16px;
+    color: #001931;
+    line-height: 20px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.soluction-content ul li img {
+    margin-right: 6px;
+}
+
+.early-access-container {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 180px 40px;
+}
+
+.early-access-content {
+    margin-bottom: 24px;
+}
+
+.early-access-content h1 {
+    font-size: 40px;
+    color: #001931;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.early-access-content p {
+    line-height: 24px;
+    font-size: 16px;
+    color: #627382;
+}
+
+.early-access-button {
+    margin-bottom: 16px;
+}
+
+footer {
+    background-color: #001931;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer-content {
+    border: 2px solid red;
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
