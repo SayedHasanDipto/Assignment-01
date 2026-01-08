@@ -70,6 +70,22 @@ a:hover {
     transition: 0.3s;
 }
 
+.last-btn{
+    border: none;
+    margin-bottom: 16px;
+}
+
+.last-btn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+.last-btn a img{
+    margin-left: 5px;
+}
+
 .btn:hover {
     background-color: #469165ea;
     color: white;
