@@ -121,13 +121,12 @@ button {
 
 .unfill-button {
     background-color: transparent;
-    border: 2px solid white;
-    padding: 16px;
+    border: 1px solid white;
+    padding: 14px;
     font-size: 16px;
     font-weight: 600;
     color: white;
-    border: none;
-    border-radius: 8px
+    border-radius: 12px
 }
 
 .idea-container {
