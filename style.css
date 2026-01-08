@@ -85,7 +85,6 @@ a:hover {
 .last-btn:hover {
     background-color: rgba(255, 255, 255, 0.075);
     color: rgba(255, 255, 255, 0.500);
-    border: 1px solid rgba(255, 255, 255, 0.075);
 }
 
 .last-btn a img {
