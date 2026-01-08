@@ -118,6 +118,14 @@ button {
     color: white;
     font-size: 16px;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-button a img {
+    margin-left: 5px;
+
 }
 
 .unfill-button {
@@ -249,7 +257,7 @@ button {
 }
 
 .soluction-content ul li img {
-    margin-right: 6px;
+    margin-right: 8px;
 }
 
 .early-access-container {
@@ -282,6 +290,24 @@ button {
 .early-access-button {
     margin-bottom: 16px;
 }
+
+.early-access-button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.early-access-button a img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+
+
 
 footer {
     background-color: #001931;
