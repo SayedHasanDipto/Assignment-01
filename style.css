@@ -35,11 +35,28 @@
     align-items: center;
 }
 
+.navbar ul li a {
+    transition: 0.3s;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.navbar ul li a:hover {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: #0000001a;
+}
+
 a {
     text-decoration: none;
     color: #000000;
     font-size: 16px;
     line-height: 152%;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: white;
 }
 
 .btn {
@@ -47,9 +64,15 @@ a {
     padding: 14px 16px;
     font-size: 16px;
     font-weight: 600;
-    color: white;
+    color: rgba(255, 255, 255, 0.719);
     border: none;
-    border-radius: 8px
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #469165ea;
+    color: white;
 }
 
 .hero-container {
@@ -134,14 +157,27 @@ section {
 
 }
 
-.unfill-button {
+.unfill-button a {
     background-color: transparent;
     border: 1px solid white;
     padding: 14px;
     font-size: 16px;
     font-weight: 600;
     color: white;
-    border-radius: 12px
+    border-radius: 12px;
+    transition: 0.3s;
+    transition: 0.3s;
+}
+
+.unfill-button a i {
+    margin-right: 6px;
+}
+
+.unfill-button a:hover,
+.unfill-button a i:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+    color: rgba(255, 255, 255, 0.500);
+    border: 1px solid rgba(255, 255, 255, 0.075);
 }
 
 .idea-container {
@@ -152,67 +188,73 @@ section {
     flex-direction: column;
 }
 
-.idea-container .idea-content {
-    /* border: 2px solid black; */
-    margin: 60px 0px 44px;
-}
-
-.idea-content h1 {
-    font-size: 44px;
-    font-weight: bold;
+.idea-container h1 {
+    font-size: 48px;
     color: #001931;
-    margin-bottom: 16px;
+    font-weight: bold;
+    margin-top: 26px;
+    margin-bottom: 22px;
 }
 
-.idea-content p {
-    line-height: 20px;
-    font-size: 16px;
-    color: #627382;
+.idea-container p {
+    padding-bottom: 44px;
 }
 
 .idea-card {
-    /* border: 2px solid black; */
+    /* border: 2px solid red; */
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
 }
 
-.idea-card .card {
+
+.center-box {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+
+
+.card {
+    /* border: 2px solid black; */
+    width: 290px;
+    height: 290px;
+    padding: 55px 25px;
+    text-align: center;
+    box-shadow: 0px 2px 10px #00000026;
 }
 
 .card .card-img-box {
+    background-color: #F95555;
     width: 60px;
     height: 60px;
-    /* border: 2px solid red; */
-    background-color: #F95555;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50px;
-    margin-bottom: 16px;
-    margin-top: 69px;
+    margin: 0px auto 16px;
 }
 
-.idea-card .card h3 {
+.card h3 {
     font-size: 24px;
-    font-weight: 600;
     margin-bottom: 16px;
-    text-align: center;
+    color: #001931;
 }
 
-.idea-card .card p {
+
+.card p {
     font-size: 16px;
-    line-height: 20px;
     color: #627382;
-    width: 275px;
-    text-align: center;
-    margin-bottom: 69px;
+    line-height: 20px;
 }
+
+
+
+
+/* Solution Sectin Styles */
 
 .solution {
     /* border: 2px solid red; */
@@ -284,8 +326,8 @@ section {
 
 
 .early-content {
-    background-color: #80808026;
-    box-shadow: 0px 1px 20px #00000042;
+    background-color: #8080800d;
+    box-shadow: 0px 2px 10px #00000026;
     padding: 70px 0px;
     border-radius: 10px;
     width: 85%;
