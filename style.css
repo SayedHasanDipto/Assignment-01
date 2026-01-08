@@ -194,6 +194,7 @@ button {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .idea-card .card p {
@@ -316,11 +317,30 @@ footer {
     justify-content: center;
 }
 
-footer .footer-content {
+footer .footer-container {
     border: 2px solid red;
     width: 85%;
     max-width: 1360px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 120px 120px 30px 120px;
+}
+
+footer .footer-container .footer-content {
+    /* border: 2px solid gray; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .social-link h3 {
+    color: white;
+}
+
+footer .social-link img {
+    background-color: white;
+    border-radius: 50px;
+    margin: 8px 8px 8px 0px;
 }
