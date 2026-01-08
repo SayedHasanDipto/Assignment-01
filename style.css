@@ -315,10 +315,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 footer .footer-container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 85%;
     max-width: 1360px;
     display: flex;
@@ -343,4 +344,19 @@ footer .social-link img {
     background-color: white;
     border-radius: 50px;
     margin: 8px 8px 8px 0px;
+}
+
+footer .copyright {
+    border-top: 1px solid gray;
+    margin: 80px 120px 30px 120px;
+    width: 85%;
+    max-width: 1360px;
+    text-align: center;
+}
+
+footer .copyright p {
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 25px;
 }
