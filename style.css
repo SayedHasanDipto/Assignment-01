@@ -130,14 +130,15 @@ button {
 }
 
 .idea-container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .idea-container .idea-content {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 60px 0px 44px;
 }
 
@@ -152,4 +153,52 @@ button {
     line-height: 20px;
     font-size: 16px;
     color: #627382;
+}
+
+.idea-card {
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 24px;
+}
+
+.idea-card .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .card-img-box {
+    width: 60px;
+    height: 60px;
+    /* border: 2px solid red; */
+    background-color: #F95555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-bottom: 16px;
+    margin-top: 69px;
+}
+
+.idea-card .card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.idea-card .card p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    width: 275px;
+    text-align: center;
+    margin-bottom: 69px;
+}
+
+.solution {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
