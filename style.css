@@ -37,7 +37,7 @@
 
 .navbar ul li a {
     transition: 0.3s;
-    padding: 12px;
+    padding: 10px 12px;
     border-radius: 10px;
 }
 
@@ -72,8 +72,8 @@ a:hover {
 }
 
 .btn:hover {
-    background-color: #469165ab;
-    color: rgba(0, 0, 0, 0.589);
+    background-color: #469165d0;
+    color: rgba(0, 0, 0, 0.400);
     box-shadow: 0px 0px 5px #469165ab;
 }
 
@@ -279,7 +279,7 @@ section {
     align-items: center;
     width: 85%;
     max-width: 1360px;
-    justify-content: space-evenly;
+    gap: 65px;
 }
 
 .solution-container .knowledge {
@@ -360,8 +360,22 @@ section {
     margin-top: 16px;
 }
 
-.early-access-content a {
+.early-access-content .btn a {
     color: white;
+}
+
+.early-access-content span a {
+    color: #627382;
+    transition: 0.5s ease-in-out;
+    padding: 3px 6px;
+    border: 1px solid white;
+}
+
+.early-access-content span a:hover {
+    color: black;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #00000013;
+    border-bottom: 1px solid black;
 }
 
 
