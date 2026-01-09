@@ -47,6 +47,10 @@
     background-color: #0000001a;
 }
 
+.navbar button {
+    color: white;
+}
+
 a {
     text-decoration: none;
     color: #000000;
