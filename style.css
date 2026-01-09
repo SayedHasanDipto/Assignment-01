@@ -182,6 +182,7 @@ section {
 
 .unfill-button a i {
     margin-right: 6px;
+    cursor: none;
 }
 
 .unfill-button a:hover,
@@ -237,6 +238,7 @@ section {
     text-align: center;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .card:hover {
