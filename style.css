@@ -235,13 +235,14 @@ section {
     height: 290px;
     padding: 55px 25px;
     text-align: center;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.08);
     transition: 0.3s;
     cursor: pointer;
 }
 
 .card:hover {
-    box-shadow: 0px 10px 25px 7px rgb(0 0 0 / 10%);
+    scale: 1.03;
+    box-shadow: 0px 0px 20px 5px #00000013;
 }
 
 .card .card-img-box {
@@ -285,11 +286,32 @@ section {
     width: 85%;
     max-width: 1360px;
     gap: 65px;
+    transition: 0.3s;
+}
+
+.soluction-content {
+    transition: 0.3s;
+    width: 1360px;
+    padding: 33px;
+    border-radius: 10px;
+}
+
+.soluction-content:hover {
+    scale: 1.03;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px #00000013;
 }
 
 .solution-container .knowledge {
-    width: 600px;
-    height: 600px;
+    width: 550px;
+    transition: 0.3s;
+    height: 550px;
+}
+
+.solution-container .knowledge:hover {
+    box-shadow: 0px 0px 20px 5px #00000013;
+    scale: 1.03;
+    border-radius: 10px;
 }
 
 .soluction-content .the-solution {
@@ -336,18 +358,28 @@ section {
     text-align: center;
     flex-direction: column;
     padding: 180px 40px;
+    transition: 0.3s;
+}
+
+
+.early-access-container:hover {
+    scale: 1.03;
 }
 
 .early-content {
     background-color: #8080800d;
-    box-shadow: 0px 2px 10px #00000026;
     padding: 70px 0px;
     border-radius: 10px;
     width: 100%;
+    transition: 0.3s;
+}
+
+.early-content:hover{
+    box-shadow: 0px 0px 20px 5px #00000013;
 }
 
 .early-access:hover {
-    background-color: rgba(255, 255, 255, 0.075);
+background-color: rgba(255, 255, 255, 0.116);
 
 }
 
